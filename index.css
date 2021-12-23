@@ -33,7 +33,7 @@
   left: 0;
   width: 500%;
   height: 100%;
-  animation: animate 10s linear infinite;
+  animation: animate 20s linear infinite;
 }
 
 .slider .slide {

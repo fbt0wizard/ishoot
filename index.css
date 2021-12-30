@@ -119,6 +119,9 @@
   .slider .slide .caption p {
     font-size: 16px;
   }
+  .slider {
+    height: 80%;
+  }
 }
 @keyframes animate {
   0% {

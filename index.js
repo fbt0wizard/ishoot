@@ -48,7 +48,7 @@ var img;
 
 function openImg(event) {
   img = event.target.src;
-  // console.log(event.target.parentNode)
+  console.log(event.target.parentNode)
   Swal.fire({
     imageUrl: img,
     imageAlt: 'A tall image',

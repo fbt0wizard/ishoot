@@ -173,6 +173,12 @@ nav ul li ul li a {
   transform: rotate(-45deg);
 }
 
+@media only screen and (max-width: 500px) {
+  .brand a img {
+    width: 130px;
+  }
+}
+
 /* article {
   max-width: 1000px;
   margin: 0 auto;

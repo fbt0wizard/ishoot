@@ -53,6 +53,8 @@ function openImg(event) {
     imageUrl: img,
     imageAlt: 'A tall image',
     imageWidth: '100%',
-    showConfirmButton: false
+    showConfirmButton: false,
+    margin: 0,
+    background: 'none'
   })
 }

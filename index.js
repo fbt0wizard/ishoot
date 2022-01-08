@@ -58,3 +58,28 @@ function openImg(event) {
     background: 'none'
   })
 }
+
+$(document).ready(function() {
+  $(".fa-whatsapp").click(function() {
+    window.open('https://wa.link/2sq6zg','_blank');
+  })
+})
+
+$(document).ready(function() {
+  $(".fa-facebook").click(function() {
+    window.open('https://facebook.com/Heywhymedia/','_blank');
+  })
+})
+
+$(document).ready(function() {
+  $(".fa-twitter").click(function() {
+    window.open('https://twitter.com/a_aadedeji','_blank');
+  })
+})
+
+$(document).ready(function() {
+  $(".fa-instagram").click(function() {
+    window.open('https://instagram.com/ishot_pixels/','_blank');
+  })
+})
+

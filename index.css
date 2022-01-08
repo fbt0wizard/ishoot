@@ -92,6 +92,10 @@
 .container {
   padding: 2px 16px;
   min-height: 230px;
+  
+}
+.card-container {
+  background: #fff;
 }
 .wrap {
   display: flex;

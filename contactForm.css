@@ -94,23 +94,11 @@
 .socials > .fa-whatsapp {
     color: #1b892a;
 }
-.socials > .fa-whatsapp:hover {
-    color: #fff;
-    background-color: #1b892a;
-}
 .fa-facebook {
     color: #4867aa;
 }
-.fa-facebook:hover {
-    color: #fff;
-    background-color: #4867aa;
-}
 .fa-twitter {
     color: #5da9dd;
-}
-.fa-twitter:hover {
-    color: #fff;
-    background-color: #5da9dd;
 }
 .fa-instagram:hover {
     background: #d6249f;
@@ -156,26 +144,24 @@
     color: #fff;
     background-color: #1b892a;
 }
+@media only screen and (min-width: 827px) {
+    .socials > .fa-whatsapp:hover {
+        color: #fff;
+        background-color: #1b892a;
+    }
+    .fa-facebook:hover {
+        color: #fff;
+        background-color: #4867aa;
+    }
+    .fa-twitter:hover {
+        color: #fff;
+        background-color: #5da9dd;
+    }
+}
 
 @media only screen and (max-width: 827px) {
     .responsive {
         flex-direction: column;
-    }
-    .fa-facebook:hover {
-        color: #4867aa;
-        background-color: none;
-    }
-    .fa-whatsapp:hover {
-        color: #1b892a;
-        background-color: none;
-    }
-    .fa-twitter:hover {
-        color: #5da9dd;
-        background-color: none;
-    }
-    #float-whatsapp:hover {
-        color: #1b892a;
-        background-color: none;
     }
 }
 @media only screen and (max-width: 413px) {

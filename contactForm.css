@@ -161,6 +161,22 @@
     .responsive {
         flex-direction: column;
     }
+    .fa-facebook:hover {
+        color: #4867aa;
+        background-color: none;
+    }
+    .fa-whatsapp:hover {
+        color: #1b892a;
+        background-color: none;
+    }
+    .fa-twitter:hover {
+        color: #5da9dd;
+        background-color: none;
+    }
+    #float-whatsapp:hover {
+        color: #1b892a;
+        background-color: none;
+    }
 }
 @media only screen and (max-width: 413px) {
     .form, .details {

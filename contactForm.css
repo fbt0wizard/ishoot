@@ -140,10 +140,6 @@
     transition: all .3s ease-in-out;
     cursor: pointer;
 }
-#float-whatsapp:hover {
-    color: #fff;
-    background-color: #1b892a;
-}
 @media only screen and (min-width: 827px) {
     .socials > .fa-whatsapp:hover {
         color: #fff;
@@ -156,6 +152,10 @@
     .fa-twitter:hover {
         color: #fff;
         background-color: #5da9dd;
+    }
+    #float-whatsapp:hover {
+        color: #fff;
+        background-color: #1b892a;
     }
 }
 
